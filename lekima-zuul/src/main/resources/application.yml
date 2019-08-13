@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9521/eureka/
+
+spring:
+  application:
+    name: lekima-zuul
+
+# 配置路由
+zuul:
+  routes:
+    users:
+      path: /admin/**
+      serviceId: lekima-admin
