@@ -12,6 +12,7 @@ public class PortalController {
 
     @RequestMapping("/")
     public String index() {
+        // develop编辑
         return "hello lekima-admin service!";
     }
 
