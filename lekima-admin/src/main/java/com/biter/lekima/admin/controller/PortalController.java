@@ -16,11 +16,7 @@ public class PortalController {
 
     @RequestMapping("/")
     public String index() {
-<<<<<<< Updated upstream
-        return "hello lekima-admin service!";
-=======
         return "hello lekima-admin service. port is " + port;
->>>>>>> Stashed changes
     }
 
 }
