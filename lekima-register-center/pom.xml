@@ -33,13 +33,6 @@
                 <configuration>
                     <executable>true</executable>
                 </configuration>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <outputDirectory>/home/lekima/lekima-cloud/lekima-register-center</outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
